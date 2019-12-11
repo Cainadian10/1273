@@ -1,0 +1,64 @@
+/* Website styles */
+body {
+  background-color: rgb(224, 216, 240);
+  color: rgb(9, 2, 23);
+  font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+  text-align: left;
+    font-size: 26px
+}
+
+h1 {
+  color: rgb(9, 2, 23);
+  font-family: Helvetica, Arial;
+}
+
+
+h2 {
+  color: rgb(141, 103, 218)
+font-family: 'Kanit', sans-serif;
+}
+
+p {
+line-height: 2;
+font-family: 'Kanit', sans-serif;
+}
+
+h3 {
+font-family: 'Kanit', sans-serif;
+}
+
+
+footer p {
+  font-size: 20px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+section ol {
+  color: red;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+}
