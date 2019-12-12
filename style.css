@@ -9,7 +9,7 @@
 
 body {
   background-color: rgb(224, 216, 240);
-  color: rgb(9, 2, 23);
+  color: white;
   font-family: 'Kanit', sans-serif;
   margin: 50px;
   font-size: 15px;
@@ -21,13 +21,13 @@ h1 {
 }
 
 h1 {
-  color: rgb(9, 2, 23);
+  color: papayawhip;
   font-family: Helvetica, Arial;
 }
 
 
 h2 {
-  color: rgb(141, 103, 218)
+  color: papayawhip;
 font-family: 'Kanit', sans-serif;
 }
 
@@ -37,6 +37,7 @@ font-family: 'Kanit', sans-serif;
 }
 
 h3 {
+  color: papayawhip;
 font-family: 'Kanit', sans-serif;
 }
 
@@ -50,7 +51,7 @@ header h1 {
 }
 
 section ol {
-  color: red;
+  color: lightgrey;
 }
 
 a {
@@ -148,7 +149,7 @@ section {
 }
 
 .about {
-  background-color: purple;
+  background-color: #367377;
 }
 
 .about h2 {
@@ -177,6 +178,57 @@ h1 {
 }
 
 #About {
-  background-color: papayaWhite;
+  background-color: papayawhip;
   color: black;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.box p {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+div {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.box {
+  color: turquoise;
+  background-image: url(images/derek.jpg);
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 370px;
+  background-size: 100%;
+}
+
+body {
+  background-image: url(images/dark-honeycomb.png);
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/dab.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.banner {
+  background-position: center;
+}
+.photo {
+  background-position: 50% right;
+}
+.icon {
+  background-position: 0 100px;
 }
